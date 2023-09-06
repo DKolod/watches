@@ -1,13 +1,8 @@
 import React from 'react';
-// import styles from './About.module.scss';
-
-
+import styles from './About.module.scss';
 
 const About = () => {
-  return (
-    <div >
-    </div>
-  );
+  return <div className={styles.aboutSection}></div>;
 };
 
 export default About;
