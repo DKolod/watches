@@ -1,0 +1,78 @@
+.collectionSection{
+    background:  black;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        
+        height: auto;
+        outline: 1px solid red;
+}
+
+.collectionContainer{
+    padding: 24px 16px;
+}
+.collectionContainer h2{
+    text-align: center;
+    color: #FFF;
+        font-family: Anonymous Pro;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140.1%;
+       
+
+}
+.collectionImg{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.collectionList h3{
+    color: #FFF;
+        font-family: Anonymous Pro;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140.1%;
+        margin-top: 24px;
+       
+}
+.collectionList p{
+    color: #FFF;
+        font-family: Crimson Text;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140.1%;
+        margin-top: 24px;
+       
+}
+
+.collectionList span{
+    color: #FFF;
+        font-family: Anonymous Pro;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140.1%;
+        background-color: transparent;
+        margin-right: 72px ;
+       
+
+}
+.collectionItem + .collectionItem{
+    margin-top: 24px;
+}
+.portfolioIcon{
+    width: 16px;
+        height: 16px;
+}
+.ItemBtnThumb{
+    display: flex;
+    align-items: center;
+    margin-top: 24px ;
+    justify-content: flex-end;
+    
+
+}

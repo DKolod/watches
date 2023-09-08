@@ -1,9 +1,36 @@
 .aboutSection{
     
-    background-image: url(../../../images/about-bg-mob.png);
+    background: url(../../../images/about-bg-mob.png), black;
         background-repeat: no-repeat;
         background-position: 50% 50%;
-        background-size: auto;
+        // background-size: cover;
         height: 640px;
         
+}
+
+.aboutContainer{
+    padding: 24px 16px;
+   
+              
+}
+
+.aboutTitle {
+    color: #FFF;
+        font-family: Anonymous Pro;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140.1%;
+       
+    text-align: center;
+    margin-bottom: 32px;
+}
+.aboutText{
+    color: #FFF;
+        font-family: Crimson Text;
+        font-size: 20px;
+ 
+        font-weight: 400;
+        line-height: 140.1%;
+       
 }

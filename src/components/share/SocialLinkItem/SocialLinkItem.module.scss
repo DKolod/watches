@@ -1,0 +1,22 @@
+
+
+.socialLinkItem {
+     
+
+    .iconSocialLink {
+        width: 32px;
+        height: 32px;
+        fill: currentColor;
+        transition: 250ms;
+
+        &:hover,
+        &:focus {
+            transform: scale(1.3);
+        }
+
+       
+    }
+}
+.socialLinkItem + .socialLinkItem{
+    margin-left: 32px;
+}
