@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/watches/static/css/main.4e05eba0.css",
-    "main.js": "/watches/static/js/main.16260be4.js",
+    "main.css": "/watches/static/css/main.10d2d675.css",
+    "main.js": "/watches/static/js/main.5a1efb0b.js",
+    "static/media/about-img.png": "/watches/static/media/about-img.bba6d7953d368b4e03b0.png",
+    "static/media/header-all.png": "/watches/static/media/header-all.1de5d8749b6be0e41199.png",
     "static/media/header-bg-mob.png": "/watches/static/media/header-bg-mob.194e5d5708c8f9cff042.png",
+    "static/media/collection-tab.png": "/watches/static/media/collection-tab.16723686258123b72a29.png",
     "static/media/about-bg-mob.png": "/watches/static/media/about-bg-mob.8d89c55f1f9bda84fefc.png",
-    "static/media/rolexmob.jpg": "/watches/static/media/rolexmob.04436fdcbe956b0e3629.jpg",
     "static/media/icons.svg": "/watches/static/media/icons.a67640133281cfe7ff3c44c9a4783003.svg",
     "index.html": "/watches/index.html",
-    "main.4e05eba0.css.map": "/watches/static/css/main.4e05eba0.css.map",
-    "main.16260be4.js.map": "/watches/static/js/main.16260be4.js.map"
+    "main.10d2d675.css.map": "/watches/static/css/main.10d2d675.css.map",
+    "main.5a1efb0b.js.map": "/watches/static/js/main.5a1efb0b.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e05eba0.css",
-    "static/js/main.16260be4.js"
+    "static/css/main.10d2d675.css",
+    "static/js/main.5a1efb0b.js"
   ]
 }
