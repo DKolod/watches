@@ -7,6 +7,10 @@ background-position: 50% 50%;
 height: 640px;
 
   padding-top: 32px;
+  @media (min-width: 1440px) {
+    background: #111619;
+    height: 930px;
+    }
 }
 .headerTop {
   width: 91%;
@@ -24,16 +28,59 @@ height: 640px;
     font-style: normal;
     font-weight: 700;
     line-height: 140.1%;
+    @media (min-width: 1020px) {
+        font-size: 40px;
+      }
+}
+
+.headerNav{
+  display: flex;
 }
 
 .headerIcon {
     width: 32px;
     height: 19px;
+    @media (min-width: 768px) {
+        display: none;
+      }
+}
+.headerNavList{
+  display: flex;
+  @media (max-width: 767px){
+    display: none;
+  }
+
+}
+.headerNavList > li + li {
+  margin-left: 121px;
+}
+.headerNavLink{
+  color: #FFF;
+    font-family: Anonymous Pro;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140.1%;
+    cursor: pointer;
+      transition: 500ms;
+    
+      &:hover,
+      &:focus {
+        color: #FF3F3F;
+        background: rgba(0, 0, 0, 0.301);
+        border-radius: 5px;
+        
+      }
+   
 }
 .container{
     margin-top:138px ;
   padding-left: 16px ;
   padding-right: 16px;
+  @media (min-width: 767px) {
+    padding-left: 80px;
+     
+    }
 }
 .container p + p,
 .container button
@@ -48,6 +95,9 @@ height: 640px;
         font-style: normal;
         font-weight: 400;
         line-height: 140.1%;
+        @media (min-width: 767px) {
+            font-size: 64px;
+          }
 
 
 }
@@ -58,6 +108,10 @@ height: 640px;
         font-style: normal;
         font-weight: 400;
         line-height: 140.1%;
+        @media (min-width: 767px) {
+            font-size: 40px;
+          }
+
         
 }
 .container span{
@@ -74,6 +128,36 @@ color: #FF3F3F;
         font-weight: 700;
         line-height: 140.1%;
         cursor: pointer;
+        transition: 250ms;
+        
+          &:hover,
+          &:focus {
+            color:#FF3F3F;
+            background: rgba(0, 0, 0, 0.301);
+            border: 1px solid #e9e9e910;
+          }
+        @media (min-width: 767px) {
+            padding: 16px 80px;
+            font-size: 40px;
+          }
        
+}
+.heroThumb{
+    padding-left: 16px;
+      padding-right: 16px;
+  display: flex;
+  justify-content: space-between;
+  @media (min-width: 1439px) {
+      padding-top: 131px;
+      
+        padding-right: 80px;
+    }
+}
+.heroThumb > img{
+  @media (max-width: 1439px) {
+      display: none;
+     
+      
+    }
 }
 

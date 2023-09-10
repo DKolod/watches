@@ -4,7 +4,7 @@ import SocialLinkList from 'components/share/SocialLinkList';
 
 const Footer = () => {
   return (
-    <div className={styles.footerSection}>
+    <div id="Contacts" className={styles.footerSection}>
       <SocialLinkList id="Contacts" />
     </div>
   );

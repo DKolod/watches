@@ -6,13 +6,29 @@
         // background-size: cover;
         height: 640px;
         
+        @media (min-width: 767px) {
+                
+                height: 982px;
+            }
+        @media (min-width: 1440px) {
+                background: #111619;
+                // height: 982px;
+            }
+        
 }
 
 .aboutContainer{
     padding: 24px 16px;
-   
+    display: flex;
+    @media (min-width: 767px) {
+            padding:130px 80px;
+        }
+                @media (min-width: 1440px) {
+                    padding: 0px 80px;
+                }
               
 }
+
 
 .aboutTitle {
     color: #FFF;
@@ -24,6 +40,9 @@
        
     text-align: center;
     margin-bottom: 32px;
+    @media (min-width: 767px) {
+        font-size: 48px;
+        }
 }
 .aboutText{
     color: #FFF;
@@ -32,5 +51,21 @@
  
         font-weight: 400;
         line-height: 140.1%;
+        @media (min-width: 767px) {
+                font-size: 32px;
+            }
        
+}
+
+.aboutImg{
+    display: none;
+    margin-right: 23px ;
+    @media (min-width: 1440px) {
+           display: flex;
+        }
+}
+.aboutTextThumb{
+    @media (min-width: 1440px) {
+            padding-top: 134px ;
+        }
 }

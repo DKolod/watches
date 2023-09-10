@@ -4,6 +4,9 @@
     display: flex;
     justify-content: center;
     padding: 24px 0;
+    @media (min-width: 1440px) {
+            padding: 130px 0;
+        }
 
    
 }

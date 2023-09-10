@@ -16,7 +16,7 @@ html {
 body {
   margin: 0;
   color: #fff;
-  background-color: #000;
+  background-color: #111619;
 }
 
 * {
@@ -44,4 +44,18 @@ a {
 }
 ::-webkit-scrollbar {
   width: 0px;
+}
+:target {
+  display: block;
+
+  animation: scrollReveal 1.9s ease; /* Плавная анимация прокрутки */
+}
+
+@keyframes scrollReveal {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

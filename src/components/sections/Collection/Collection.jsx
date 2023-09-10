@@ -1,11 +1,11 @@
 import React from 'react';
 import styles from './Collection.module.scss';
 import sprite from 'images/icons.svg';
-import rolexmob from '../../../images/rolexmob.jpg';
+import rolexmob from '../../../images/collection-tab.png';
 
 const Collection = () => {
   return (
-    <div className={styles.collectionSection}>
+    <div id="Collection" className={styles.collectionSection}>
       <div className={styles.collectionContainer}>
         <h2>Collectin</h2>
         <ul className={styles.collectionList}>
