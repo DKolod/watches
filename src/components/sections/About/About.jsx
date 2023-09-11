@@ -10,10 +10,10 @@ const About = () => {
         <div className={styles.aboutTextThumb}>
           <h2 className={styles.aboutTitle}>About</h2>
           <p className={styles.aboutText}>
-            Lorem ipsum dolor sit amet consectetur. Mi mi donec egestas ornare sodales dignissim pulvinar ultricies. Aenean enim curabitur enim gravida
-            volutpat. Viverra tristique libero rhoncus aliquam sed. Morbi sed nisi duis nunc commodo. Amet euismod turpis et pellentesque magna magnis viverra
-            faucibus. Sed elit turpis sed pellentesque quis integer aliquam in. Adipiscing tristique magna donec condimentum enim consequat. Venenatis non
-            consequat metus amet. Ut sed elementum egestas arcu risus rhoncus blandit.
+            Наш магазин годинників - це місце, де час стає не просто вимірюванням, а джерелом елегантності та стилю. Ми пишаємося тим, що пропонуємо широкий
+            вибір високоякісних годинників від провідних світових брендів. Наші годинники - це не просто функціональні аксесуари, а справжні шедеври мистецтва,
+            які доповнять ваш образ і підкреслять вашу унікальність. Наші досвідчені консультанти завжди готові допомогти вам обрати ідеальні годинники, що
+            відповідають вашим потребам і стилю. Ласкаво просимо до нас, де час набуває нового виміру!
           </p>
         </div>
       </div>

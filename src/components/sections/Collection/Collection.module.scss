@@ -52,6 +52,7 @@
         margin: 0 auto;
         display: flex;
         flex-wrap: wrap;
+        align-items: stretch;
         @media (min-width: 1440px) {
         
                 margin-right: -20px;
@@ -83,6 +84,7 @@
         font-weight: 400;
         line-height: 140.1%;
         margin-top: 24px;
+        flex: 1;
         @media (min-width: 1440px) {
                 font-size: 32px;
                 margin-top: 64px;
@@ -103,6 +105,7 @@
        
 
 }
+
 
 .collectionItem + .collectionItem{
     margin-top: 24px;
@@ -142,12 +145,15 @@
 
 }
 .collectionItem {
-
+display: flex;
+flex-direction: column;
     @media (min-width: 1440px) {
-    
+        
         flex-basis: calc(100% / 2 - 30px);
         margin-right: 20px;
         margin-bottom: 48px;
+        align-items: stretch;
+        
         }
 
         

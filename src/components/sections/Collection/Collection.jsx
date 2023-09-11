@@ -2,6 +2,9 @@ import React from 'react';
 import styles from './Collection.module.scss';
 import sprite from 'images/icons.svg';
 import rolexmob from '../../../images/collection-tab.png';
+import omega from '../../../images/omega.png';
+import tagheuer from '../../../images/tagheuer.png';
+import patek from '../../../images/patek.png';
 
 const Collection = () => {
   return (
@@ -13,8 +16,8 @@ const Collection = () => {
             <img src={rolexmob} alt="rolex" className={styles.collectionImg} />
             <h3>Rolex</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Mi mi donec egestas ornare sodales dignissim pulvinar ultricies. Aenean enim curabitur enim gravida
-              volutpat. Viverra tristique libero rhoncus aliquam sed. Morbi sed nisi duis
+              Rolex - втілення бездоганного стилю і точності. Цей швейцарський годинник завжди в тренді завдяки своїй неперевершеній якості, елегантному дизайну
+              та вишуканим деталям. Розроблений для справжніх цінувачів часу
             </p>
             <div className={styles.ItemBtnThumb}>
               <span> More </span>
@@ -24,11 +27,11 @@ const Collection = () => {
             </div>
           </li>
           <li className={styles.collectionItem}>
-            <img src={rolexmob} alt="rolex" className={styles.collectionImg} />
-            <h3>Rolex</h3>
+            <img src={omega} alt="rolex" className={styles.collectionImg} />
+            <h3>Omega</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Mi mi donec egestas ornare sodales dignissim pulvinar ultricies. Aenean enim curabitur enim gravida
-              volutpat. Viverra tristique libero rhoncus aliquam sed. Morbi sed nisi duis
+              Годинники Omega — швейцарські вироби високої якості. Засновані в 1848 році. Славляться точністю, елегантним дизайном і відмінними технологіями.
+              Фаворити серед зірок і колекціонерів.
             </p>
             <div className={styles.ItemBtnThumb}>
               <span> More </span>
@@ -38,11 +41,11 @@ const Collection = () => {
             </div>
           </li>
           <li className={styles.collectionItem}>
-            <img src={rolexmob} alt="rolex" className={styles.collectionImg} />
-            <h3>Rolex</h3>
+            <img src={tagheuer} alt="rolex" className={styles.collectionImg} />
+            <h3>Tag Heuer</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Mi mi donec egestas ornare sodales dignissim pulvinar ultricies. Aenean enim curabitur enim gravida
-              volutpat. Viverra tristique libero rhoncus aliquam sed. Morbi sed nisi duis
+              Tag Heuer - відомий швейцарський бренд годинників, встановлений в 1860 році. Ця компанія славиться інноваціями в годинниковій промисловості,
+              спеціалізується на спортивних і автомобільних колекціях. Відомі своєю точністю та стильним дизайном.
             </p>
             <div className={styles.ItemBtnThumb}>
               <span> More </span>
@@ -52,11 +55,11 @@ const Collection = () => {
             </div>
           </li>
           <li className={styles.collectionItem}>
-            <img src={rolexmob} alt="rolex" className={styles.collectionImg} />
-            <h3>Rolex</h3>
+            <img src={patek} alt="rolex" className={styles.collectionImg} />
+            <h3>Patek Philippe</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Mi mi donec egestas ornare sodales dignissim pulvinar ultricies. Aenean enim curabitur enim gravida
-              volutpat. Viverra tristique libero rhoncus aliquam sed. Morbi sed nisi duis
+              Patek Philippe - вишукані швейцарські годинники, засновані в 1839 році. Виробник розкішних годинників для еліти та колекціонерів. Слово "Patek
+              Philippe" асоціюється з бездоганною майстерністю, ексклюзивністю і високою ціною.
             </p>
             <div className={styles.ItemBtnThumb}>
               <span> More </span>
