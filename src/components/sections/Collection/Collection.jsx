@@ -13,6 +13,11 @@ const Collection = () => {
         <h2>Collectin</h2>
         <ul className={styles.collectionList}>
           <li className={styles.collectionItem}>
+            <div className={styles.overlay}>
+              <p>
+                This content is hidden through transformation and only appears when hovering over <code>div.box</code>
+              </p>
+            </div>
             <img src={rolexmob} alt="rolex" className={styles.collectionImg} />
             <h3>Rolex</h3>
             <p>

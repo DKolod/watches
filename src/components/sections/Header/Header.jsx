@@ -9,9 +9,12 @@ const Header = () => {
       <div className={styles.headerTop}>
         <h1 className={styles.headerTitle}>Watch | ers</h1>
         <div className={styles.headerNav}>
-          <svg className={styles.headerIcon}>
-            <use href={sprite + '#menu'} />
-          </svg>
+          <button>
+            <svg className={styles.headerIcon}>
+              <use href={sprite + '#menu'} />
+            </svg>
+          </button>
+
           <ul className={styles.headerNavList}>
             <li>
               <a className={styles.headerNavLink} href="#Collection">

@@ -3,17 +3,17 @@
   "name": "Watches",
   "icons": [
     {
-      "src": "camera.ico",
+      "src": "watch.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "camera.png",
+      "src": "watch.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "camera.png",
+      "src": "watch.png",
       "type": "image/png",
       "sizes": "512x512"
     }
