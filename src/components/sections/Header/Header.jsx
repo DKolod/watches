@@ -2,8 +2,12 @@ import React from 'react';
 import styles from './Header.module.scss';
 import sprite from 'images/icons.svg';
 import headerImg from '../../../images/header-all.png';
+import { useModal } from 'hooks';
+import Modal from '../../Modal/Modal';
 
 const Header = () => {
+  const { modalActive, shouldRender, openModal, closeModal } = useModal();
+
   return (
     <div className={styles.headerSection}>
       <div className={styles.headerTop}>
@@ -40,10 +44,24 @@ const Header = () => {
             <span>You</span> control time
           </p>
           <p>it doesn't control you</p>
-          <button type="button">Begin</button>
+          {/* <button onClick={openModal} type="button">
+            Begin
+          </button> */}
+          <button onClick={openModal} type="button">
+            Begin
+          </button>
         </div>
         <img src={headerImg} alt="rolex" width={630} height={613} className={styles.collectionImg} />
       </div>
+
+      {shouldRender && (
+        <Modal closeModal={closeModal} active={modalActive}>
+          <div>
+            Modal content
+            <button onClick={closeModal}>Close</button>
+          </div>
+        </Modal>
+      )}
     </div>
   );
 };
