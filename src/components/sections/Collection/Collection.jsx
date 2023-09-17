@@ -13,11 +13,6 @@ const Collection = () => {
         <h2>Collectin</h2>
         <ul className={styles.collectionList}>
           <li className={styles.collectionItem}>
-            <div className={styles.overlay}>
-              <p>
-                This content is hidden through transformation and only appears when hovering over <code>div.box</code>
-              </p>
-            </div>
             <img src={rolexmob} alt="rolex" className={styles.collectionImg} />
             <h3>Rolex</h3>
             <p>
@@ -26,9 +21,11 @@ const Collection = () => {
             </p>
             <div className={styles.ItemBtnThumb}>
               <span> More </span>
-              <svg className={styles.portfolioIcon}>
-                <use href={sprite + '#circle'} />
-              </svg>
+              <a href="https://www.rolex.com/" target="_blank" rel="noreferrer noopener">
+                <svg className={styles.portfolioIcon}>
+                  <use href={sprite + '#circle'} />
+                </svg>
+              </a>
             </div>
           </li>
           <li className={styles.collectionItem}>
@@ -40,9 +37,11 @@ const Collection = () => {
             </p>
             <div className={styles.ItemBtnThumb}>
               <span> More </span>
-              <svg className={styles.portfolioIcon}>
-                <use href={sprite + '#circle'} />
-              </svg>
+              <a href="https://www.omegawatches.com/" target="_blank" rel="noreferrer noopener">
+                <svg className={styles.portfolioIcon}>
+                  <use href={sprite + '#circle'} />
+                </svg>
+              </a>
             </div>
           </li>
           <li className={styles.collectionItem}>
@@ -54,9 +53,11 @@ const Collection = () => {
             </p>
             <div className={styles.ItemBtnThumb}>
               <span> More </span>
-              <svg className={styles.portfolioIcon}>
-                <use href={sprite + '#circle'} />
-              </svg>
+              <a href="https://www.tagheuer.com/" target="_blank" rel="noreferrer noopener">
+                <svg className={styles.portfolioIcon}>
+                  <use href={sprite + '#circle'} />
+                </svg>
+              </a>
             </div>
           </li>
           <li className={styles.collectionItem}>
@@ -68,9 +69,11 @@ const Collection = () => {
             </p>
             <div className={styles.ItemBtnThumb}>
               <span> More </span>
-              <svg className={styles.portfolioIcon}>
-                <use href={sprite + '#circle'} />
-              </svg>
+              <a href="https://www.patek.com/" target="_blank" rel="noreferrer noopener">
+                <svg className={styles.portfolioIcon}>
+                  <use href={sprite + '#circle'} />
+                </svg>
+              </a>
             </div>
           </li>
         </ul>

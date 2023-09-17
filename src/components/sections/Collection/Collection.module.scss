@@ -124,16 +124,16 @@
     align-items: center;
     margin-top: 24px ;
     justify-content: flex-end;
-    // transition: 500ms;
+    transition: 500ms;
     
-    //     &:hover,
-    //     &:focus {
-    //         .portfolioIcon{
-    //             transform: scale(1.3);
+        &:hover,
+        &:focus {
+            .portfolioIcon{
+                transform: scale(1.3);
 
-    //         }
+            }
         
-    //     }
+        }
      
     @media (min-width: 1440px) {
         justify-content: flex-start;
@@ -161,18 +161,4 @@ position: relative;
         
     
 }
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #3f51b5;
 
-    transform: translatey(100%);
-    transition: transform 250ms ease-in-out;
-}
-
-.collectionItem.ItemBtnThumb:hover .overlay {
-    transform: translatey(0);
-}
