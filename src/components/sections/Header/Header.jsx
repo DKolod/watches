@@ -21,13 +21,24 @@ const Header = () => {
             </svg>
           </button>
           <SimpleModal isOpen={modalInfoIsOpen} onClose={() => setModalInfoOpen(false)}>
-            <h2>Modal info</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, ratione? Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime,
-              blanditiis modi eaque iste repellendus ducimus fugit ad nam porro, sequi unde atque repellat! Consequuntur alias repellendus corrupti, quia est,
-              quae aperiam adipisci dolore accusantium debitis temporibus possimus unde quod iusto pariatur enim nobis asperiores sunt, suscipit necessitatibus!
-              Voluptatum, recusandae laboriosam.
-            </p>
+            <form className={styles.form}>
+              <label className={styles.label} htmlFor="name">
+                Ім’я
+                <input className={styles.input} type="text" id="name" name="from_name" placeholder="Введіть ім’я" required />
+              </label>
+              <label className={styles.label} htmlFor="phone">
+                Номер
+                <input className={styles.input} type="tel" id="phone" name="user_phone" placeholder="Введіть номер" required />
+              </label>
+              <label className={styles.label} htmlFor="email">
+                Пошта
+                <input className={styles.input} type="email" id="email" name="email_id" placeholder="Введіть пошту" required />
+              </label>
+
+              <button className={styles.btn} type="submit">
+                Залишити заявку
+              </button>
+            </form>
           </SimpleModal>
 
           <ul className={styles.headerNavList}>
@@ -68,8 +79,28 @@ const Header = () => {
       {shouldRender && (
         <Modal closeModal={closeModal} active={modalActive}>
           <div>
-            Modal content
-            <button onClick={closeModal}>Close</button>
+            <button className={styles.closeModal} onClick={closeModal}>
+              <svg className={styles.closeIcon}>
+                <use href={sprite + '#close'} />
+              </svg>
+            </button>
+            <ul>
+              <li className={styles.headerNavLink}>
+                <a className={styles.headerNavLink} href="#Collection">
+                  Collection
+                </a>
+              </li>
+              <li className={styles.headerNavLink}>
+                <a className={styles.headerNavLink} href="#About">
+                  About
+                </a>
+              </li>
+              <li className={styles.headerNavLink}>
+                <a className={styles.headerNavLink} href="#Contacts">
+                  Contacts
+                </a>
+              </li>
+            </ul>
           </div>
         </Modal>
       )}
