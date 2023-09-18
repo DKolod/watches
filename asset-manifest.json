@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/watches/static/css/main.e3a6172c.css",
-    "main.js": "/watches/static/js/main.f43f8aab.js",
+    "main.css": "/watches/static/css/main.3393f828.css",
+    "main.js": "/watches/static/js/main.7fb82041.js",
     "static/media/tagheuer.png": "/watches/static/media/tagheuer.b288ec54cb7f62a79a8f.png",
     "static/media/about-img.png": "/watches/static/media/about-img.bba6d7953d368b4e03b0.png",
     "static/media/header-all.png": "/watches/static/media/header-all.1de5d8749b6be0e41199.png",
@@ -12,11 +12,11 @@
     "static/media/about-bg-mob.png": "/watches/static/media/about-bg-mob.8d89c55f1f9bda84fefc.png",
     "static/media/icons.svg": "/watches/static/media/icons.95d11a4ed1a73d663c0bed17c3470f56.svg",
     "index.html": "/watches/index.html",
-    "main.e3a6172c.css.map": "/watches/static/css/main.e3a6172c.css.map",
-    "main.f43f8aab.js.map": "/watches/static/js/main.f43f8aab.js.map"
+    "main.3393f828.css.map": "/watches/static/css/main.3393f828.css.map",
+    "main.7fb82041.js.map": "/watches/static/js/main.7fb82041.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3a6172c.css",
-    "static/js/main.f43f8aab.js"
+    "static/css/main.3393f828.css",
+    "static/js/main.7fb82041.js"
   ]
 }
