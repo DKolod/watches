@@ -85,17 +85,17 @@ const Header = () => {
               </svg>
             </button>
             <ul>
-              <li className={styles.headerNavLink}>
+              <li className={styles.headerNavLink} onClick={closeModal}>
                 <a className={styles.headerNavLink} href="#Collection">
                   Collection
                 </a>
               </li>
-              <li className={styles.headerNavLink}>
+              <li className={styles.headerNavLink} onClick={closeModal}>
                 <a className={styles.headerNavLink} href="#About">
                   About
                 </a>
               </li>
-              <li className={styles.headerNavLink}>
+              <li className={styles.headerNavLink} onClick={closeModal}>
                 <a className={styles.headerNavLink} href="#Contacts">
                   Contacts
                 </a>

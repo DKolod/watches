@@ -43,6 +43,7 @@ height: 640px;
   @media (min-width: 768px) {
       display: none;
     }
+        
 }
 
 .headerIcon {
@@ -51,6 +52,11 @@ height: 640px;
     @media (min-width: 768px) {
         display: none;
       }
+            &:hover,
+            &:focus {
+              scale: 1.4;
+      
+            }
 }
 .headerNavList{
   display: flex;
