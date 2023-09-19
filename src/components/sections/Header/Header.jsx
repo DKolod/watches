@@ -66,9 +66,7 @@ const Header = () => {
             <span>You</span> control time
           </p>
           <p>it doesn't control you</p>
-          {/* <button onClick={openModal} type="button">
-            Begin
-          </button> */}
+         
           <button onClick={() => setModalInfoOpen(true)} type="button">
             Begin
           </button>
