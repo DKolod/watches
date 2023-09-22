@@ -10,6 +10,7 @@ const SocialLinkList = ({ id }) => {
         return <SocialLinkItem key={id} socialName={socialName} path={path} pathIcon={hrefIcon} />;
       })}
     </ul>
+    // <a href="#">made by webevery</a>
   );
 };
 
