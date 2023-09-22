@@ -4,16 +4,29 @@ import sprite from 'images/icons.svg';
 import headerImg from '../../../images/header-all.png';
 import { useModal } from 'hooks';
 import Modal from '../../Modal/Modal';
+import ModalList from '../../sections/ModalList/ModalList';
 import { SimpleModal } from 'components/SimplrModal/SimpleModal';
 
 const Header = () => {
   const { modalActive, shouldRender, openModal, closeModal } = useModal();
   const [modalInfoIsOpen, setModalInfoOpen] = useState(false);
 
+  // useEffect(() => {
+  //   if (openModal) {
+  //     document.body.style.overflow = 'hidden';
+  //   }
+  //   return () => {
+  //     document.body.style.overflow = 'unset';
+  //   };
+  // }, [openModal]);
+
   return (
     <div className={styles.headerSection}>
       <div className={styles.headerTop}>
-        <h1 className={styles.headerTitle}>Watch | ers</h1>
+        <a href="../../../../public/index.html">
+          <h1 className={styles.headerTitle}>Watch | ers</h1>
+        </a>
+
         <div className={styles.headerNav}>
           <button className={styles.modalShowButton} onClick={openModal}>
             <svg className={styles.headerIcon}>
@@ -66,7 +79,7 @@ const Header = () => {
             <span>You</span> control time
           </p>
           <p>it doesn't control you</p>
-         
+
           <button onClick={() => setModalInfoOpen(true)} type="button">
             Begin
           </button>
@@ -76,7 +89,7 @@ const Header = () => {
 
       {shouldRender && (
         <Modal closeModal={closeModal} active={modalActive}>
-          <div>
+          {/* <div>
             <button className={styles.closeModal} onClick={closeModal}>
               <svg className={styles.closeIcon}>
                 <use href={sprite + '#close'} />
@@ -99,7 +112,8 @@ const Header = () => {
                 </a>
               </li>
             </ul>
-          </div>
+          </div> */}
+          <ModalList closeModal={closeModal} openModal={openModal} />
         </Modal>
       )}
     </div>
