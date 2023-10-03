@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/watches/static/css/main.8573477d.css",
-    "main.js": "/watches/static/js/main.7c0dda5b.js",
+    "main.js": "/watches/static/js/main.73bf8c98.js",
     "static/media/tagheuer.png": "/watches/static/media/tagheuer.b288ec54cb7f62a79a8f.png",
     "static/media/about-img.png": "/watches/static/media/about-img.bba6d7953d368b4e03b0.png",
     "static/media/header-all.png": "/watches/static/media/header-all.1de5d8749b6be0e41199.png",
@@ -13,10 +13,10 @@
     "static/media/icons.svg": "/watches/static/media/icons.95d11a4ed1a73d663c0bed17c3470f56.svg",
     "index.html": "/watches/index.html",
     "main.8573477d.css.map": "/watches/static/css/main.8573477d.css.map",
-    "main.7c0dda5b.js.map": "/watches/static/js/main.7c0dda5b.js.map"
+    "main.73bf8c98.js.map": "/watches/static/js/main.73bf8c98.js.map"
   },
   "entrypoints": [
     "static/css/main.8573477d.css",
-    "static/js/main.7c0dda5b.js"
+    "static/js/main.73bf8c98.js"
   ]
 }
