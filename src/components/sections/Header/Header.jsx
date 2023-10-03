@@ -23,7 +23,7 @@ const Header = () => {
   return (
     <div className={styles.headerSection}>
       <div className={styles.headerTop}>
-        <a href="/">
+        <a href="/watches">
           <h1 className={styles.headerTitle}>Watch | ers</h1>
         </a>
 
